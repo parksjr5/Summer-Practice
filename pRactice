@@ -1,0 +1,5 @@
+#Printing random values within a range INCLUDING decimals
+print(sample(-50:50, 10))
+
+#Printing random values within a range NOT including decimals
+print(runif(10, -50, 50))
