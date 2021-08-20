@@ -1,5 +1,21 @@
 #Printing random values within a range INCLUDING decimals
 print(sample(-50:50, 10))
 
+
 #Printing random values within a range NOT including decimals
 print(runif(10, -50, 50))
+
+
+## Matrix
+
+a <- matrix(
+    c("Jordan", "Jessica", "Mary", "Erika"),    # the data elements
+    nrow = 5,   #number of rows   
+    ncol = 4,   #number of columns
+    byrow=TRUE
+)
+print(a)
+
+#Adding a name to Matrix
+a[2,3] = "Joe"
+print(a)
