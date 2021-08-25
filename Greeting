@@ -4,4 +4,4 @@ greet = hi + name
 print(greet)
 
 
-##just practicing branching in Git
+##just practicing branching in Git a bit
