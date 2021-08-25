@@ -2,3 +2,6 @@ hi = 'hello there '
 name = input('Enter your name: ')
 greet = hi + name
 print(greet)
+
+
+#lots of variables
